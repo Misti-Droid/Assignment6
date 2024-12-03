@@ -22,5 +22,5 @@ jobs:
       - name: Build and push container
         run: |
           docker build -t my-container .
-          docker tag my-container <mistidroid>/Assignment6:prod
-          docker push <mistidroid>/Assignment6:prod
+          docker tag my-container mistidroid/Assignment6:prod
+          docker push mistidroid/Assignment6:prod
